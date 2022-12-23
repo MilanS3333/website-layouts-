@@ -1,0 +1,87 @@
+@media (max-width:1200px){
+    .dance .container .for-media1{
+        display: none;
+    }
+    .pricing .container .for-media1{
+        display: none;
+     }
+     
+}
+@media (max-width:992px){
+    .dance .card{
+        width: 20rem;
+    }
+    .pricing .card{
+        width: 20rem;
+    }
+    header section .background .title-info{
+        width: 70%;
+    }
+}
+@media (max-width:768px){
+    header section .background{
+        background-position: right;
+    }
+    .heading-info1{
+        width: 100%;
+    }
+
+    /* nav-bar start */
+    header section .background .nav-container .logo{
+        display: none;
+    }
+    header section .background .nav-container .nav{
+        display: none;
+    }
+    header section .background .nav-container .search{
+        display: none;
+    }
+    /* End nav-bar start */
+
+    /* contant in header */
+    header section .background .title-0{
+        margin-top: 0px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    header section .background .title-info{
+        width: 100%;
+    }
+    /* End contant in header */
+
+    /* Dance-tour start */
+    .dance .container .for-media{
+        display: none;
+    }
+    /* End Dance-tour*/
+
+    /* Pricing section */
+    .pricing .container .for-media{
+       display: none;
+    }
+    /* End Pricing section */
+
+    /* Best Dancer */
+    .best-dancer .flex{
+        flex-wrap: wrap-reverse;
+    }
+    .best-dancer .row .container .dnc{
+        margin: 50px 100px;
+    }
+    .best-dancer .row .container .dnc .btn{
+        margin-top: 30px;
+    }
+    /* End Best Dancer */
+
+    /* Herbert Simon section */
+    .herbert{
+        background-position: center;
+    }
+    /* End Herbert Simon section */
+
+    /* footer contant */
+    footer .container .list{
+        margin-top: 70px;
+    }
+    /* end footer contant */
+}

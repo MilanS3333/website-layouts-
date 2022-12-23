@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "open Sans";
+}
+html{
+    overflow-x: hidden;
+}
+.container .btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    word-spacing: .3rem;
+}
+.container h1{
+    font-family: 'Freehand', cursive;
+    font-size: 15vmin;
+}
+.container h3{
+    font-style: italic;
+    font-size: 4vmin;
+    margin-bottom: 30px;
+}
+.container p{
+    font-size: 2.5vmin;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 30px;
+}
+#header .header .fixed-top .fa-bars{
+    display: none;
+}
+
+
+/* Nav Section */
+#header .header{
+    background-image: url(../images/HeaderBackground.png);
+    color: #fff;
+    width: 100%;
+    background-size: cover;
+    padding: 200px 0;
+}
+#header .header .fixed-top{
+    display: flex;
+    background-color: #000;
+    padding-top: 20px;
+}
+#header .header .fixed-top ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 60%;
+}
+#header .header .fixed-top ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    word-spacing: .3rem;
+}
+#header .header .fixed-top ul .search{
+    background-color: #fff;
+    border-radius: 15px;
+}
+#header .header .fixed-top ul input{
+    border-radius: 15px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+#header .header .fixed-top ul .search i{
+    color: #000;
+    margin-right: 10px;
+}
+/* End Nav Section */
+
+
+
+/* Header Section */
+#header .header .container .head a{
+    background-color: #fff;
+    color: #000;
+}
+#header .header .container .row .for-img{
+    position: relative;
+}
+#header .header .container .row .for-img .img-005{
+    position: absolute;
+    top: 80%;
+    left: -20%;
+    height: 30vmin;
+    width: 30vmin;
+}
+#header .header .container .row .for-img .img-004{
+    position: absolute;
+    top: -20%;
+    right: 0;
+    height: 80vmin;
+    width: 80vmin;
+}
+#header .header .container .row .for-img .img-006{
+    position: absolute;
+    top: 80%;
+    right: -20%;
+}
+/* End Header Section */
+
+
+
+/* Pasta section */
+#pasta{
+    margin: 100px 0;
+}
+#pasta .container{
+    text-align: center;
+}
+#pasta .container img{
+    width: 50vmin;
+    height: 50vmin;
+    object-fit: contain;
+}
+#pasta .container p{
+    color: #000;
+}
+#pasta .container .food-name{
+    font-weight: bolder;
+    font-size: 3vmin;
+}
+#pasta .container .show-more{
+    margin-top: 50px;
+}
+#pasta .container .show-more .btn{
+    background-color: #000;
+    color: #fff;
+}
+/* End Pasta section */
+
+
+/* offers section */
+#offers{
+    background-color: #000;
+}
+#offers .container{
+    text-align: center;
+}
+#offers .container .info-limit{
+    padding-top: 50px;
+}
+#offers .container h1,p{
+    color: #fff;
+}
+#offers .container a{
+    margin: 50px 0;
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+#offers-on-food .container{
+    margin-top: 100px;
+}
+#offers-on-food .container img{
+    height: 100vmin;
+    width: 100vmin;
+    object-fit: contain;
+}
+#offers-on-food .container .row p{
+    color: #000;
+}
+#offers-on-food .container .row .offer-on-dish{
+    margin: 200px auto;
+}
+#offers-on-food .container .row .offer-on-dish div{
+    font-weight: bolder;
+    font-size: 2vw;
+}
+#offers-on-food .container .row .offer-on-dish a{
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+/* END offers section */
+
+/* Pizza type section */
+#pizza{
+    background-image: url(../images/HeaderBackground.png);
+    color: #fff;
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+#pizza .container{
+    text-align: center;
+}
+#pizza .container .holder{
+       align-items: center;
+       margin-top: 50px;
+}
+#pizza .container p{
+    width: 70%;
+    margin: 0 auto;
+}
+#pizza .container .line{
+    width: 10%;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-bottom: 5px solid #fff;  
+}
+#pizza .container .pizza-con .img-003{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    height: 100vmin;
+    width: 210vmin;
+}
+#pizza .container .pizza-con .img-section{
+    position: relative;
+    height: 27.5vh;
+    background-color: aqua;
+}
+#pizza .container .pizza-con .img-section .img-001{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* height: 745px; */
+    /* width: 745px; */
+    width: 80vmin;
+    object-fit: contain;
+}
+#pizza .container .pizza-con .img-section .img-002{
+    position: absolute;
+    bottom: -50%;
+    left: 30%;
+    /* width: 370px; */
+    /* height: 315px; */
+    width: 40vmin;
+    object-fit: contain;
+}
+/* End Pizza type section */
+
+
+
+/* food-type section */
+#food-type .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#food-type .container .row{
+    margin: 0 50px;
+    justify-content: space-evenly;
+}
+#food-type .container .row h1{
+    font-size: 8vmin;
+}
+#food-type .container .row p{
+    color: #000;
+}
+#food-type .container .second{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#food-type .container .second P{
+    color: #000;
+    text-align: center;
+}
+/* End food-type section */
+
+
+
+/* form section start */
+#form{
+    background-color: #000;
+    color: #fff;
+    padding: 200px 0;
+}
+#form .container .exe{
+    text-align: center;
+    margin: 0 auto;
+}
+#form .container .exe .title{
+    font-size: 9vmin;
+    font-weight: bold;
+}
+#form .container .exe .submit{
+    background-color: #fff;
+    width: fit-content;
+    margin: auto;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#form .container .exe .submit .email{
+    border-radius: 60px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+#form .container .exe .submit .btn{
+    background-color: #808080;
+    color: #fff;
+}
+/* end form section start */
+
+/* About us section start */
+#about-us .container{
+    margin: 200px auto;
+}
+#about-us a{
+    text-decoration: none;
+    color: #000;
+}
+#about-us h5{
+    font-size: 4vmin;
+    margin-bottom: 20px;
+}
+#about-us .container .row .exp{
+    width: 70%;
+}
+#about-us .container .row .fa-brands{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+/* End About us section start */

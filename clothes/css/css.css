@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oswald';
+}
+html{
+    overflow-x: hidden;
+}
+header section .background{
+    background-image: url(../img/background\ img.png);
+    /* height: 100vh; */
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0;
+}
+.heading{
+    font-size: 9vmin;
+    color: #fff;
+}
+.heading-info{
+    font-size: 3.5vmin;
+    margin: 0 auto;
+    color: #fff;
+}
+.heading-info1{
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+
+
+/* nav-bar start */
+header section .background .nav-container{
+    background-color: #000;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+header section .background .row{
+    margin: auto;
+}
+header section .background .nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 0;
+}
+header section .background .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3vw;
+}
+header section .background .row .search{
+    color: #fff;
+    text-align: right;
+}
+header section .background .row .search a{
+    margin: 25px 0;
+    color: #fff;
+    text-decoration: none;
+}
+header section .background .nav-container .bars{
+    display: none;
+}
+/* End nav-bar */
+
+/* contant in header */
+header section .background .title-0{
+    margin-top: 100px;
+}
+header section .background .title{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18vmin;
+}
+header section .background .title-info{
+    color: #fff;
+    font-size: 4.5vmin;
+    width: 45%;
+}
+header section .background .btn-in{
+    color: #fff;
+    border: 3px solid #e8631c;
+    padding: 10px 50px;
+    font-size: 5vmin;
+}
+header section .background .btn-in:hover{
+    background-color: #e8631c;
+}
+/* End contant in header */
+
+
+
+/* Dance-tour start */
+.dance{
+    background-color: #e8631c;
+    padding-top: 100px;
+    background-image: url(../img/Shape.png);
+    background-position: -500px -400px;
+    background-repeat: no-repeat;
+}
+.dance .container{
+    text-align: center;
+}
+.dance .card{
+    margin: 100px auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 23rem;
+}
+.dance .card p{
+    font-size: 20px;
+}
+/* End Dance-tour*/
+
+/* Pricing section */
+.pricing{
+    background-color: #303030;
+    padding-top: 100px;
+    background-image: url(../img/Shape\ 2.png),url(../img/Shape\ 3.png);
+    background-position: -300px -400px,700px 300px;
+    background-repeat: no-repeat;
+}
+.pricing .container{
+    text-align: center;
+}
+.pricing .container .card-img-top{
+    width: 25%;
+    margin: 50px auto;
+}
+.pricing .card{
+    margin: 100px auto;
+    background-color: #e8631c;
+    color: #fff;
+    text-align: center;
+    width: 23rem;
+}
+.pricing .card p{
+    font-size: 20px;
+}
+.pricing .card .btn-in{
+    color: #fff;
+    border: 3px solid #303030;
+    padding: 10px 100px;
+    font-size: 3vmin;
+}
+.pricing .card .btn-in:hover{
+    background-color: #303030;
+}
+/* End Pricing section */
+
+/* Best Dancer */
+.best-dancer{
+    background-color: #e8631c;
+    color: #fff;
+}
+.best-dancer .row .col-xl-6{
+    padding: 0px;
+}
+.best-dancer .row .container{
+    margin: auto;
+}
+.best-dancer .row .container .dnc{
+    margin: 0 100px;
+}
+.best-dancer .row .img-holder img{
+    width: 100%;
+}
+.best-dancer .row .container .dnc .btn{
+    border: 3px solid #303030;
+    padding: 10px 80px;
+    color: #fff;
+    font-size: 3vmin;
+    margin-top: 50px;
+}
+.best-dancer .row .container .dnc .btn:hover{
+    background-color: #303030;
+}
+/* End Best Dancer */
+
+/* Our Statistics section */
+.Statistics{
+    background-color: #303030;
+    padding: 200px 0;
+}
+.Statistics .container .heading,.heading-info{
+    text-align: center;
+}
+.Statistics .container .row{
+    margin-top: 100px;
+}
+/* End Our Statistics section */
+
+/* Herbert Simon section */
+.herbert{
+    background: linear-gradient(rgba(232,99,28,.3),rgba(232,99,28,.3)),url(../img/dance\ 6.png);
+    text-align: center;
+    padding: 350px 0;
+}
+/* End Herbert Simon section */
+
+/* submit section */
+.submit{
+    background-color: #e8631c;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(../img/Shape\ 5.png),url(../img/Shape\ 6.png);
+    background-position: -800px 0,800px 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.submit .container .ip{
+    background-color: #fff;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.submit .container .inp{
+    width: 25%;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 3vmin;
+    padding-left: 10px;
+}
+.submit .container .sub{
+    background-color: #303030;
+    color: #fff;
+    padding: 5px 0;
+    width: 50%;
+    font-size: 3vmin;
+}
+/* end submit section */
+
+/* footer contant */
+footer{
+    background-color: #303030;
+    padding: 100px 0;
+}
+footer .container h4{
+    color: #fff;
+    margin-bottom: 25px;
+}
+footer .container .contact-us a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+footer .container p{
+    color: #fff;
+    width: 70%;
+}
+footer .container .list a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end footer contant */

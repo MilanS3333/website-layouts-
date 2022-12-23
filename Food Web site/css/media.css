@@ -1,0 +1,216 @@
+@media (max-width:768px){
+    #header .header{
+        padding: 100px 0;
+    }
+    #header .header .fixed-top .ct{
+        display: none;
+    }
+    #header .header .fixed-top .fa-bars{
+        display: none;
+    }
+    #header .header .fixed-top ul{
+        justify-content: space-evenly;
+        width: 100%;
+        margin-right: 30px;
+    }
+    #header .header .fixed-top li{
+        display: block;
+    }
+    #header .header .fixed-top ul li a{
+        font-weight: bold;
+        letter-spacing: .1rem;
+        word-spacing: .3rem;
+        font-size: 1.7vmin;
+    } */
+    /* Header Section */
+    #header .header .container .head{
+       text-align: center;
+    }
+    #header .header .container .row .for-img{
+        display: none;
+    }
+    /* End Header Section */
+
+    /* offers section */
+    #offers-on-food .container{
+        margin-top: 50px;
+        text-align: center;
+    }
+    #offers-on-food .container img{
+        height: 80vmin;
+        width: 80vmin;
+    }
+    #offers-on-food .container .row .col-xl-6 .offer-on-dish .hus{
+        font-size: 4vmin;
+    }
+    #offers-on-food .container .row .offer-on-dish{
+        margin: 50px auto;
+    }
+    #offers-on-food .container .for-media{
+        flex-wrap: wrap-reverse;
+    }
+    /* END offers section */
+
+    /* Pizza type section */
+    #pizza .container h1{
+        font-size: 9vmin;
+    }
+    #pizza .container .pizza-con .img-003{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50vmin;
+        width: 100vmin;
+    }
+    #pizza .container .pizza-con .img-section .img-001{
+        top: 0;
+        right: -20%;
+    }
+    #pizza .container .pizza-con .img-section .img-002{
+        top: 150%;
+        left: 0%;
+    }
+    /* End Pizza type section */
+
+    /* food-type section */
+    #food-type .container{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    #food-type .container .row h1{
+        text-align: center;
+    }
+    #food-type .container .row p{
+        text-align: center;
+    }
+    #food-type .container .second{
+        width: auto;
+        margin-top: 50px;
+    }
+    /* End food-type section */
+
+    /* form section start */
+    #form{
+        padding: 100px 0;
+    }
+    /* end form section start */
+
+    /* About us section start */
+    #about-us .container{
+        margin: 100px auto;
+    }
+    #about-us .container .for-responsive{
+        margin-top: 60px;
+    }
+    /* End About us section start */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px){
+
+    #header .header{
+        padding: 100px 0;
+    }
+    #header .header .fixed-top ul{
+        justify-content: flex-end;
+        width: 60%;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    #header .header .fixed-top li{
+        display: none;
+    }
+    /* Header Section */
+    #header .header .container .head{
+       text-align: center;
+    }
+    #header .header .container .row .for-img{
+        display: none;
+    }
+    /* End Header Section */
+
+    /* offers section */
+    #offers-on-food .container{
+        margin-top: 50px;
+        text-align: center;
+    }
+    #offers-on-food .container img{
+        height: 80vmin;
+        width: 80vmin;
+    }
+    #offers-on-food .container .row .col-xl-6 .offer-on-dish .hus{
+        font-size: 4vmin;
+    }
+    #offers-on-food .container .row .offer-on-dish{
+        margin: 50px auto;
+    }
+    #offers-on-food .container .for-media{
+        flex-wrap: wrap-reverse;
+    }
+    /* END offers section */
+
+    /* Pizza type section */
+    #pizza .container h1{
+        font-size: 9vmin;
+    }
+    #pizza .container .pizza-con .img-003{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50vmin;
+        width: 100vmin;
+    }
+    #pizza .container .pizza-con .img-section .img-001{
+        top: 0;
+        right: 0%;
+    }
+    #pizza .container .pizza-con .img-section .img-002{
+        top: 130%;
+        left: 0%;
+    }
+    /* End Pizza type section */
+
+    /* food-type section */
+    #food-type .container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #food-type .container .row h1{
+        text-align: center;
+    }
+    #food-type .container .row p{
+        text-align: center;
+    }
+    #food-type .container .second{
+        width: auto;
+        margin-top: 50px;
+    }
+    /* End food-type section */
+
+    /* form section start */
+    #form{
+        padding: 100px 0;
+    }
+    /* end form section start */
+
+    /* About us section start */
+    #about-us .container{
+        margin: 100px auto;
+    }
+    #about-us .container .for-responsive{
+        margin-top: 60px;
+    }
+    /* End About us section start */
+}
