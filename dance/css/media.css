@@ -17,6 +17,12 @@
     header section .background .title-info{
         width: 70%;
     }
+    header section .background .row .search{
+        display: none;
+    }
+    .heading-info{
+        font-size: 3vmin;
+    }
 }
 @media (max-width:768px){
     header section .background{
@@ -30,10 +36,37 @@
     header section .background .nav-container .logo{
         display: none;
     }
-    header section .background .nav-container .nav{
-        display: none;
+    header section .background .nav-container{
+        display: flex;
+    }
+    header section .background .nav ul{
+        list-style: none;
+        display: block;
+        text-align: center;
+        width: 100;
+    }
+    header section .background .nav ul li{
+        margin: 40px 0;
+    }
+    header section .background .nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 3vw;
     }
     header section .background .nav-container .search{
+        display: none;
+    }
+    header section .background .nav-container .bars{
+        display: block;
+        text-align: right;
+        margin-right: 30px;
+        font-size: 4vw;
+    }
+    header section .background .nav-container .bars .fa-solid{
+        background-color: #000;
+        color: #fff;
+    }
+    header section .background .nav{
         display: none;
     }
     /* End nav-bar start */
