@@ -1,3 +1,20 @@
+@media (max-width:992px){
+    /* About us section start */
+    #about-us .container{
+        margin: 100px auto;
+    }
+    #about-us .container .for-responsive{
+        margin-top: 60px;
+    }
+    /* End About us section start */
+}
+
+
+
+
+
+
+
 @media (max-width:768px){
     #header .header{
         padding: 100px 0;

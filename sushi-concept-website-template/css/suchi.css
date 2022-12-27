@@ -1,0 +1,138 @@
+@media(max-width:992px){
+    .header-info{
+        width: 50%;
+    }
+    .popular .menu .container .row p{
+        width: 100%;
+    }
+    /* order now section start */
+    .order .container .row .in .header-info{
+        margin: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    /* order now section end */
+
+    /* second order now section start */
+    .order-1 .container .row .in .header-info{
+        margin: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    /* second order now section end */
+
+    /* About us section start */
+    #about-us .container{
+        margin: 100px auto;
+    }
+    #about-us .container .for-responsive{
+        margin-top: 60px;
+    }
+    /* End About us section start */
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    .header-info{
+        width: 90%;
+    }
+    header .background-img .container p{
+        width: 100%;
+    }
+    header .background-img nav{
+        padding: 20px;
+    }
+    header .background-img nav .logo{
+        width: 90%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    header .background-img .nav{
+        display: none;
+    }
+    header .background-img nav .search{
+        display: none;
+    }
+    header .background-img nav .bars{
+        color: #fff;
+        font-size: 1.5vw;
+        display: block;
+        width: 10%;
+        text-align: right;
+        padding-right: 50px;
+        margin-top: 5px;
+        padding: 0;
+    }
+    header .background-img nav .nav{
+        width: 90%;
+    }
+    header .background-img nav .nav .nav-bar{
+        display: block;
+        text-align: center;
+    }
+    .popular .menu .container .row .media{
+       display: none;
+    }
+
+
+    /* order now section start */
+    .order{
+        text-align: center;
+    }
+    .order .container .row .in{
+        margin: auto;
+        margin-top: 50px;
+    }
+    /* order now section end */
+
+    /* second order now section start */
+    .order-1{
+        text-align: center;
+    }
+    .order-1 .container .row .in{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    /* second order now section end */
+
+    /* form section start */
+    .form{
+        padding: 100px 0;
+    }
+    /* end form section start */
+    
+    /* About us section start */
+    #about-us .container{
+        margin: 100px auto;
+    }
+    #about-us .container .for-responsive{
+        margin-top: 60px;
+    }
+    /* End About us section start */
+}
+
+
+
+
+
+
+@media(max-width:576px){
+    /* form section start */
+    .form{
+        padding: 100px 0;
+    }
+    /* end form section start */
+
+    /* About us section start */
+    #about-us .container{
+        margin: 100px auto;
+    }
+    #about-us .container .for-responsive{
+        margin-top: 60px;
+    }
+    /* End About us section start */
+}

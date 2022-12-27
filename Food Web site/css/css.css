@@ -197,7 +197,8 @@ html{
     color: #fff;
     width: 100%;
     background-size: cover;
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    padding-top: 100px;
     position: relative;
 }
 #pizza .container{
@@ -225,26 +226,14 @@ html{
     width: 210vmin;
 }
 #pizza .container .pizza-con .img-section{
-    position: relative;
-    height: 27.5vh;
-    background-color: aqua;
+    margin-top: 30px;
+    /* height: 27.5vh; */
+    /* background-color: aqua; */
 }
 #pizza .container .pizza-con .img-section .img-001{
-    position: absolute;
-    top: 0;
-    right: 0;
     /* height: 745px; */
     /* width: 745px; */
     width: 80vmin;
-    object-fit: contain;
-}
-#pizza .container .pizza-con .img-section .img-002{
-    position: absolute;
-    bottom: -50%;
-    left: 30%;
-    /* width: 370px; */
-    /* height: 315px; */
-    width: 40vmin;
     object-fit: contain;
 }
 /* End Pizza type section */
