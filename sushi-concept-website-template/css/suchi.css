@@ -121,6 +121,24 @@
 
 
 @media(max-width:576px){
+    header .background-img nav .bars{
+        color: #fff;
+        font-size: 1.5vw;
+        display: block;
+        width: 15%;
+        text-align: center;
+        /* padding-right: 50px; */
+        margin-top: 5px;
+        padding: 0;
+    }
+    header .background-img nav .nav{
+        width: 85%;
+    }
+    header .background-img nav .logo{
+        width: 85%;
+        text-align: left;
+        padding-left: 50px;
+    }
     /* form section start */
     .form{
         padding: 100px 0;

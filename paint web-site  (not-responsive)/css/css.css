@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 50px 100px;
+}
+
+.email{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 70px;
+    background-color: #192a56;
+    color: #fff;
+}
+.email i{
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+/* navbar section start */
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+nav .logo{
+    font-size: 2em;
+    font-weight: bold;
+    flex-basis: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+nav .menu{
+    flex-basis: 70%;
+    text-align: right;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #808080;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+nav .menu a:first-child{
+    color: #000;
+}
+nav .menu a:hover{
+    color: #000;
+}
+/* navbar section end */
+
+/* header section start */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../p_webphoto/sofa.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 7em;
+    box-sizing: border-box;
+}
+#particles-js{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+header h1{
+    font-family: 'Courgette', cursive;
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+header button{
+    background-color: #192a56;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+/* header section end */
+
+/* services section start */
+#services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#services div{
+    flex-basis: 20%;
+    text-align: center;
+}
+#services div img{
+    width: 50%;
+}
+#services div p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #808080;
+}
+/* services section end */
+
+/* quality section start */
+#quality{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, .02);
+}
+#quality div{
+    flex-basis: 30%;
+    text-align: center;
+}
+#quality div img{
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 3px 5px #808080;
+}
+#quality div p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+/* quality section end */
+
+/* featured product section start */
+#featured{
+    background-color: #192a56;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+#featured h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+#featured .featured-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#featured .featured-row .featured-left-col{
+    flex-basis: 30%;
+    text-align: center;
+}
+#featured .featured-row .featured-left-col img{
+    width: 70%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+#featured .featured-row .featured-right-col{
+    flex-basis: 60%;
+}
+#featured .featured-row .featured-right-col h2{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#featured .featured-row .featured-right-col p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px;
+}
+#featured .featured-row .featured-right-col button{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+#wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/* featured product section end */
+
+/* slider section start */
+#testimonials{
+    width: 100%;
+}
+#testimonials h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#testimonials h1 span{
+    color: #192a56;
+}
+#testimonials .swiper-container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#testimonials .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+#testimonials .swiper-slide p{
+    background-color: #192a56;
+    color: #fff;
+    font-size: 2em;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+/* slider section end */
+
+/* contact us section start */
+#contact{
+    width: 100%;
+    height: 100vh;
+}
+#contact h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#contact h1 span{
+    color: #192a56;
+}
+#contact .contact-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#contact .contact-row .contact-left-col{
+    flex-basis: 50%;
+}
+#contact .contact-row .contact-left-col iframe{
+    border-radius: 8px;
+}
+#contact .contact-row .contact-right-col{
+    flex-basis: 40%;
+}
+#contact .contact-row .contact-right-col h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-family: 'Courgette', cursive;
+}
+#contact .contact-row .contact-right-col form input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#contact .contact-row .contact-right-col form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#contact .contact-row .contact-right-col form button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #192a56;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+/* contact us section end */
+
+/* footer section start */
+footer{
+    background-color: #192a56;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+footer h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+}
+/* footer section end */
+
