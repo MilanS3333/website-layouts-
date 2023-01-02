@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://kit.fontawesome.com/d12c663214.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            
+            <img src="img/468-thumbnail.png" class="song-img">
+            <h1>Despacito</h1>
+            <p>Luis Fonsi Ft. Puerto Rican</p>
+
+            <audio id="song">
+                <source src="audio/Luis_Fonsi_‒_Despacito_Lyrics_Lyric_Video_ft_Daddy_Yankee.mp3" type="audio/mpeg">
+            </audio>
+
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/js.js"></script>
+</body>
+</html>
